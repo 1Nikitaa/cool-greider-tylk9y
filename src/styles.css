@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.heading-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+}
+.tabs-continer {
+  margin-right: 10px;
+  padding: 12px;
+}
+.tab-cell {
+  margin-right: 10px;
+}
+.tab-cell.active {
+  border: 5px solid blue;
+}
+.tab-box {
+  margin-top: 20px;
+  min-width: 90vh;
+  max-width: 90vh;
+  max-height: 90vh;
+  min-height: 90vh;
+  border: 1px solid black;
+  padding: 20px;
+}
+.tab-box.dark-mode {
+  background-color: black;
+  color: white;
+}
+.profile-input {
+  margin-bottom: 12px;
+}
